@@ -18,8 +18,9 @@ body {
   /* justify-content: center;
   align-items: center; */
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   display: flex;
-}
+} 
 .navigation-container::-webkit-scrollbar {
   display: none;
 }
